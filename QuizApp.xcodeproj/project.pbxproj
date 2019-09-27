@@ -12,6 +12,7 @@
 		04684E612329CD4100B15586 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04684E5F2329CD4100B15586 /* Main.storyboard */; };
 		04684E632329CD4300B15586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04684E622329CD4300B15586 /* Assets.xcassets */; };
 		04684E662329CD4300B15586 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04684E642329CD4300B15586 /* LaunchScreen.storyboard */; };
+		04684E702329FCD100B15586 /* questionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04684E6F2329FCD100B15586 /* questionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		04684E622329CD4300B15586 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04684E652329CD4300B15586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04684E672329CD4300B15586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04684E6F2329FCD100B15586 /* questionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		04684E5A2329CD4100B15586 /* QuizApp */ = {
 			isa = PBXGroup;
 			children = (
+				04684E6E2329FCA400B15586 /* New Group */,
 				04684E5B2329CD4100B15586 /* AppDelegate.swift */,
 				04684E5D2329CD4100B15586 /* ViewController.swift */,
 				04684E5F2329CD4100B15586 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				04684E672329CD4300B15586 /* Info.plist */,
 			);
 			path = QuizApp;
+			sourceTree = "<group>";
+		};
+		04684E6E2329FCA400B15586 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				04684E6F2329FCD100B15586 /* questionManager.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			files = (
 				04684E5E2329CD4100B15586 /* ViewController.swift in Sources */,
 				04684E5C2329CD4100B15586 /* AppDelegate.swift in Sources */,
+				04684E702329FCD100B15586 /* questionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
